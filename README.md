@@ -1,7 +1,7 @@
 emacs-everywhere
 ================
 
-A Script to make the most useful EMACS editing features like (Kill-ring, transpose, select till end of sentence etc) in all Applications in Windows.
+A Script to make the most useful EMACS editing features like (Kill-ring, transpose, select till end of sentence etc) in all Applications in Windows. Without changing/conflicting with regularly used Windows Shortcuts such as Ctrl+C / Ctrl+V.
 
 Installation
 ============
