@@ -46,7 +46,7 @@ d) ***Ctrl + Windows Key + \*** :- Pastes the oldest item from the Kill-ring (Co
 e) or You can continue to paste normally with :- ***Ctrl + V***
 
     
-## **EMACS Style Select till end of sentence (period) across multiple lines** ##   
+## EMACS Style Select till end of sentence (period) across multiple lines 
     
 To select all the text to the right of the cursor untill it encounters a . (period) or any other special character
 even across newlines use one of the following shortcuts - 
