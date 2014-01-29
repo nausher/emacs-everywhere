@@ -1,7 +1,7 @@
 emacs-everywhere
 ================
 
-A Script to make EMACS like features (Kill-ring, transpose, select till end of sentence etc) in all Applications in Windows.
+A Script to make the most useful EMACS editing features like (Kill-ring, transpose, select till end of sentence etc) in all Applications in Windows.
 
 Installation
 ============
