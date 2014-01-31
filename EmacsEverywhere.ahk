@@ -4,13 +4,20 @@
 SetTitleMatchMode, 2
 IfWinActive, - Microsoft Outlook  ; Escaping this shortcut for Microsoft Outlook
  {
-	Send, ^q
- }
-} else{
-	 Send, +{right}
-	 Send, ^x
-	 Send, {right}
-	 Send, ^v
+	Send, ^q  ; marks email as read
+ } else{
+    ; save the old clipboard
+    ClipboardOld := ClipboardAll    
+    Send, +{right}
+    Send, ^x
+    Send, {right}
+    Send, ^v
+    ; Restore the old clipboard
+    Clipboard := ClipboardOld
+    ClipboardOld := ""
+  }
+ return 
+
  }
  return 
 
